@@ -1,7 +1,13 @@
+import Counter from "./components/Counter";
+
 export default function Home() {
   return (
-    <div className="main-container">
-      <h1>HELLO WORLD</h1>
-    </div>
+    <main className="main-container">
+      <div className="main-card">
+      <h1>REDUX WITH TOOLKIT TUTORIAL</h1>
+      <br />
+      <Counter />
+      </div>
+    </main>
   );
 }
