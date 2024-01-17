@@ -1,5 +1,21 @@
 import Counter from "./components/Counter";
 
+
+// store
+interface CounterState {
+  value: number
+};
+
+interface UserState {
+  isSignedIn: boolean
+}
+
+// actions
+const increaseByAmount = { type: 'INCREMENT', payload: 10 };
+const decreaseByAmount = { type: 'DECREASE', payload: 10 };
+
+// reducers
+
 export default function Home() {
   return (
     <main className="main-container">
