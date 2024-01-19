@@ -1,5 +1,5 @@
+"use client"
 import Counter from "./components/Counter";
-
 
 // store
 interface CounterState {
